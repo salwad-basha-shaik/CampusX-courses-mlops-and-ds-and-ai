@@ -93,7 +93,7 @@ DVC creates a `dvc.yaml` file describing the pipeline.
 To reproduce the pipeline, use:
 
 ```bash
-dvc repro
+dvc repro or dvc exp run # both are same 
 ```
 
 This reruns the necessary steps to regenerate outputs.
@@ -151,7 +151,7 @@ This reruns the necessary steps to regenerate outputs.
 5. **Reproduce Pipeline:**
 
    ```bash
-   dvc repro
+   dvc repro or dvc exp run # both are same 
    ```
 
 By following these steps, you can ensure that your data science projects are well-managed, reproducible, and collaborative.
