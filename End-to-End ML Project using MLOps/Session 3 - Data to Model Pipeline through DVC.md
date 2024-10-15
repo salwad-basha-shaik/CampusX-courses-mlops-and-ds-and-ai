@@ -93,7 +93,9 @@ DVC creates a `dvc.yaml` file describing the pipeline.
 To reproduce the pipeline, use:
 
 ```bash
-dvc repro or dvc exp run # both are same 
+dvc repro or dvc exp run # both are same
+watch below video at 1:11 if you want to see live running the data pipeline using dvc
+https://www.youtube.com/watch?v=F16E1I1AZeY&t=2s
 ```
 
 This reruns the necessary steps to regenerate outputs.
